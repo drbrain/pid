@@ -1,0 +1,7 @@
+.autotest
+History.txt
+Manifest.txt
+README.rdoc
+Rakefile
+lib/pid.rb
+test/test_pid.rb
