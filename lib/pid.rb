@@ -59,7 +59,7 @@ class PID
   def loop
     measurement = yield @position
 
-    loop do
+    while true do
       position = control measurement
 
       measurement = yield position
